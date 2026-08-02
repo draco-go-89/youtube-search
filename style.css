@@ -3,18 +3,19 @@ body {
     width: 100vh;
     height: 70vh;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     font-family: Arial, sans-serif;
     font-style: italic;
     font-size: 16px;
     align-items: center;
-    margin: 0;
+    margin: 100;
 }
 
 form {
     display: flex;
     max-width: 600px;
     width: 50%;
+    align-items: center;
 }
 
 input {
