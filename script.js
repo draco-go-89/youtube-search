@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // 1. Client-side validation: Prevent empty searches
     form.addEventListener("submit", (event) => {
         const query = searchInput.value.trim();
-        
+
         if (query === "") {
             event.preventDefault(); // Stop form from submitting
             alert("Please enter a search term!");

@@ -1,5 +1,5 @@
 body {
-    background-color: #f9f9f9;
+    background-color: #e5fbff3a;
     width: 100vh;
     height: 70vh;
     display: flex;
@@ -8,12 +8,12 @@ body {
     font-style: italic;
     font-size: 16px;
     align-items: center;
-    margin: 100;
+    margin: 100px 0;
 }
 
 form {
     display: flex;
-    max-width: 600px;
+    /* max-width: 100px; */
     width: 50%;
     align-items: center;
 }
